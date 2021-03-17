@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+  background: #FAF7F0;
+  font-family:'Economica'; 
+}
+.logo {
+  font-size: 120%;
+}
+#logo {
+  position:fixed; 
+  top:125px; 
+  left:15%; 
+  z-index:900;
+}
+img {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .3s, transform .3s;
+}
+img.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+.img {
+  opacity: 1;
+}
+.article .img:hover {
+  opacity: .8;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.nav {
+  /* position: fixed; */
+  font-family:'Economica'; 
+  font-size:108%; 
+  letter-spacing:0.1em;
+}
+.nav li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.nav a {
+  color: #000;
+}
+.nav a:hover {
+  /* color: rgb(138, 138, 138); */
+  opacity: .5;
+}
+#gnav {
+  position:fixed; 
+  bottom:31px; 
+  left:26px;
+}
+
+/* header */
+#header img:hover {
+  opacity: .5;
+}
+
+/* 作品 */
+#conrainer {
+  position:fixed; 
+  bottom:31px; 
+  left:26px;
+}
+#articleContainer {
+  text-align:right;
+  margin-right: 100px; 
+  margin-bottom:20px; 
+  font-size:83%;
+  padding-top:15px;
+  line-height:100%;
+}
+.article {
+  margin-bottom: 60px;
+}
+.article > .img {
+  text-align:right; 
+  margin-bottom:20px; 
+  font-size:83%;
+  padding-top:15px;
+  line-height:100%;
+}
+#articleContainer .ngroup h2 {
+  font-weight: bold; 
+  margin-bottom: 5px;
+}
+#articleContainer .ngroup .title {
+  color: #432;
+  margin-bottom:5px; 
+  /* font-family:'Economica';  */
+  font-family: "Noto Sans", "Tsukushi A Round Gothic", "ヒラギノ丸ゴ ProN",
+    "Hiragino Maru Gothic ProN", "Meiryo", "メイリオ";
+  font-size:108%; 
+  letter-spacing:0.1em;
+}
+img.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+#articleContainer .ngroup .cate {
+  color:#999; 
+  margin-bottom:5px; 
+  /* font-family:'Economica';  */
+  font-family: "Noto Sans", "Tsukushi A Round Gothic", "ヒラギノ丸ゴ ProN",
+    "Hiragino Maru Gothic ProN", "Meiryo", "メイリオ";
+  font-size:108%; 
+  letter-spacing:0.1em;
+}
